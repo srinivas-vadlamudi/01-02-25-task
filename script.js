@@ -1,7 +1,7 @@
 let nav=document.createElement("nav")
 nav.id="navBar"
 let p=document.createElement("p")
-p.innerText="Cloth Factory"
+p.innerText="Shoppers Cart"
 document.body.appendChild(nav); // Append nav to body
 nav.appendChild(p);
 let container=document.getElementById("container")
