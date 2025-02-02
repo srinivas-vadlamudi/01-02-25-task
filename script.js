@@ -254,7 +254,9 @@ for(let arr of array){
     <p>${arr.id}</p>
     <p class="type">${arr.category}</p>
     <img src="${arr.image}"></img>
-    <p>$${arr.price}</p>
+    <p class="title">${arr.title}</p>
+    <p class="price">$${arr.price}</p>
+    <p class="rating">Rating ${arr.rating.rate}</p>
     <button> BUY NOW </button>
     `
     container.appendChild(div)
