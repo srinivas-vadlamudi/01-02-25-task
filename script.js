@@ -252,7 +252,7 @@ for(let arr of array){
     let div=document.createElement("div")
     div.innerHTML=`
     <p>${arr.id}</p>
-    <p>${arr.category}</p>
+    <p class="type">${arr.category}</p>
     <img src="${arr.image}"></img>
     <p>$${arr.price}</p>
     <button> BUY NOW </button>
